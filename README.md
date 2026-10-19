@@ -1,7 +1,17 @@
 # AbleSpace QA assignment — deliverables
 
+![Deliverables](https://img.shields.io/badge/deliverables-6%20documents-0b7285)
+![Test cases](https://img.shields.io/badge/test%20cases-8%20executed-blue)
+![Defects](https://img.shields.io/badge/defects-5%20documented-c0392b)
+![Playwright](https://img.shields.io/badge/playwright-suite%20included-9b59b6)
+![License: MIT](https://img.shields.io/badge/license-MIT-3da639)
+
 Manual + automated test pass on the **AbleSpace** staging web app, plus the optional Playwright bonus.
 Executed **15 Oct 2026** against `https://staging.ablespace.io` in Chromium on Windows 11.
+
+> **Reviewer shortcut:** [`05-summary.md`](05-summary.md) is the half-page version and
+> [`03-bug-reports.md`](03-bug-reports.md) holds the findings themselves. Everything else here is
+> the evidence trail behind those two files.
 
 | Section | Deliverable |
 |---|---|
@@ -12,6 +22,14 @@ Executed **15 Oct 2026** against `https://staging.ablespace.io` in Chromium on W
 | Half-page summary | [`05-summary.md`](05-summary.md) |
 | Bonus — Playwright | [`06-playwright-bonus.md`](06-playwright-bonus.md) + the runnable suite in [`playwright/`](playwright/README.md) |
 | Evidence | [`evidence/`](evidence/) — screenshots written by the executed automation |
+
+<p align="center">
+  <img src="evidence/TC-signup-form-ready.png" width="430" alt="Signup form in a valid state, Continue enabled">
+  <img src="evidence/TC-signup-weak-password.png" width="430" alt="A 3-character password reported as weak">
+</p>
+
+*Both images are written by the Playwright run itself, not pasted in afterwards — the table in
+[`evidence/README.md`](evidence/README.md) says which spec produced which file.*
 
 ## Headline findings
 

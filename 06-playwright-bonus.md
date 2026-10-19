@@ -28,7 +28,11 @@ These assertions are real and were green on this build:
 - **Continue** stays disabled with an empty form, stays disabled after only the name is filled, and the strong-password meter alone does not unlock it — the policy acknowledgement is genuinely required;
 - a 3-character password is reported as weak (no "Strong" state is reached).
 
-Screenshots saved as evidence: `evidence/TC-signup-form-ready.png`, `evidence/TC-signup-weak-password.png`.
+Screenshots written by the run itself:
+
+| Form ready — valid details, policy ticked, **Continue** enabled | Weak password genuinely reported as weak |
+|---|---|
+| ![Signup form ready](evidence/TC-signup-form-ready.png) | ![Weak password](evidence/TC-signup-weak-password.png) |
 
 ## Run 2 — authenticated suite · **BLOCKED (not a pass)**
 
